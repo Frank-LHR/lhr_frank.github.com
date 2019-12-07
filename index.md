@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<!--[if gt IE 8]><!-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9">
+<![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8">
+<![endif]-->
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7">
+<![endif]-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+    <title>中国科学院天津工业生物技术研究所生物设计中心 首页</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS/font-awesome.css" rel="stylesheet">
+    <link href="CSS/nato.css" rel="stylesheet">
+    <link href="CSS/search-style.css" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet">
+    <LINK href="CSS/semantic.min.css" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 9]>
+    <script src="JS/ie8-responsive-file-warning.js"></script>
+    <script src="JS/html5shiv.min.js"></script>
+    <script src="JS/respond.min.js"></script>
+    <![endif]-->
+    <script src="JS/ie-emulation-modes-warning.js"></script>
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/ie10-viewport-bug-workaround.js"></script>
+</head>
+<body>
+<header>
+    <div class="">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="HomePage.html">
+                        <img src="icon/Title_1.png" /></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="about:blank">Data</a></li>
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Tools
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about:blank">Alignment</a></li>
+                                <li><a href="about:blank">Assembly</a></li>
+                                <li><a href="about:blank">Modification</a></li>
+                                <li><a href="about:blank">Annotation</a></li>
+                                <li><a href="about:blank">Functional Analysis</a></li>
+                                <li><a href="about:blank">Visualization</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about:blank">News</a></li>
+                        <li><a href="about:blank">Team</a></li>
+                        <li><a href="about:blank">About Us</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <a href="#"><i class="fa fa-search"></i></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!--Whole Content Page-->
+<div>
+    <!--<div class="banner">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="/bigbim/images/banner-0.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-offset-8 col-sm-4">
+                                    <div class="inner">
+                                        <a class="title"
+                                           href="http://www.biosino.org/node/cloneMonkey">These monkey twins are the first primate clones made by the method that developed Dolly</a>
+                                        <p>Chinese scientists have produced two genetically identical long-tailed macaques using the same technique that gave us Dolly the sheep, the world’s first cloned mammal. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="/bigbim/images/banner-1.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-offset-8 col-sm-4">
+                                    <div class="inner">
+                                        <a class="title"
+                                           href="http://www.nature.com/ncomms/journal/v3/n11/full/ncomms2192.html">Genome
+                                            sequences of wild and domestic bactrian camels</a>
+                                        <p>Bactrian camels serve as an important means of transportation in the cold desert
+                                            regions of China and Mongolia. Here we present a 2.01 Gb draft genome sequence
+                                            from both a wild and a domestic bactrian camel. We estimate the camel genome to
+                                            be 2.38 Gb, containing 20,821 protein-coding genes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="/bigbim/images/banner-2.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-offset-8 col-sm-4">
+                                    <div class="inner">
+                                        <a class="title"
+                                           href="http://www.nature.com/ncomms/2013/131015/ncomms3602/full/ncomms3602.html">The
+                                            genome of Mesobuthus martensii reveals a unique...</a>
+                                        <p>Representing a basal branch of arachnids, scorpions are known as 'living fossils'
+                                            that maintain an ancient anatomy and are adapted to have survived extreme
+                                            climate changes. Here we report the genome sequence of Mesobuthus martensii,
+                                            containing 32,016 protein-coding genes, the most among sequenced arthropods.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="/bigbim/images/banner-4.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <div class="container">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="/bigbim/images/banner-4.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <div class="container">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="/bigbim/images/banner-5.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <div class="container">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+   <!-- First Floor-DB&Tools-->
+    <style>
+        .ul1 li a{
+        color:slategrey;
+        }
+    </style>
+    <div class="ui vertical stripe segment">
+        <div class="page-content">
+            <div class="container">
+                <div class="ui equal width stackable grid">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <div class="column">
+                            <h3 class="ui header blue">
+                                <img src="icon/icon01.jpg" width="45">&nbsp;Databases</h3>
+
+                            <div class="four wide column">
+                                <div class="ui equal width stackable grid">
+                                    <div class="column">
+                                        <div class="ui divided compact items">
+                                            <div class="item">
+                                                <div class="ui tiny image">
+                                                    <img src="icon/001.jpg">
+                                                </div>
+                                                <div class="middle aligned content">
+                                                    <h4><a href="about:blank" target="_blank">Genomics</a></h4>
+                                        
+                                                    <ul class ="ul1">
+                                                        <li><a href="about:blank">Node</a></li>
+                                            
+                                                        <li><a href="about:blank">Genome</a></li>
+                                                    </ul>
+                                        
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="ui tiny image">
+                                                    <img src="icon/002.jpg"/>
+                                                </div>
+                                                <div class="middle aligned content">
+                                                    <h4><a href="about:blank" target="_blank">Proteomics</a></h4>
+                                                    <ul class="ul1">
+                                                        <li><a href="about:blank">PhoSigNet</a></li>
+                                                        <li><a href="about:blank">SysPTM</a></li>
+                                            
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="ui tiny image">
+                                                    <img src="icon/003.jpg"/>
+                                                </div>
+                                                <div class="middle aligned content">
+                                                    <h4><a href="about:blank" target="_blank">Transcriptomics</a></h4>
+                                                    <ul class =" ul1">
+                                                        <li><a href="about:blank">EST</a></li>
+                                                        <li><a href="about:blank">Plant Trans DB</a></li>
+                                                        <li><a href="about:blank">WIPA</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="ui tiny image">
+                                                    <img src="icon/004.jpg"/>
+                                                </div>
+                                                <div class="middle aligned content">
+                                                    <h4><a href="about:blank" target="_blank">Epigenomics</a></h4>
+                                                    <ul class =" ul1">
+                                                        <li><a href="about:blank">Seqspider</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <div class="ui divided compact items">
+                                            <div class="item">
+                                                <div class="ui tiny image">
+                                                    <img src="icon/005.jpg"/>
+                                                </div>
+                                                <div class="middle aligned content">
+                                                    <h4><a href="about:blank" target="_blank">Phenotype </a></h4>
+                                                    <ul class =" ul1">
+                                                        <li><a href="about:blank">HBV-DIAP</a></li>
+                                                        <li><a href="about:blank">SysFinder</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="ui tiny image">
+                                                    <img src="icon/006.jpg"/>
+                                                </div>
+                                                <div class="middle aligned content">
+                                                    <h4><a href="about:blank" target="_blank">Drugs</a></h4>
+                                                    <ul class =" ul1">
+                                                        <li><a href="about:blank">MCS</a></li>
+                                                        <li><a href="about:blank">Synthetic Biology</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="ui tiny image">
+                                                    <img src="icon/007.jpg"/>
+                                                </div>
+                                                <div class="middle aligned content">
+                                                    <h4><a href="about:blank" target="_blank">Taxonomy</a></h4>
+                                                   <ul class =" ul1">
+                                                        <li><a href="about:blank">Scorpion</a></li>
+                                                        <li>
+                                                            <a href="about:blank">Schistosoma</a>
+                                                        </li>
+                                                        <li><a href="about:blank">Virus Genome</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="item">
+                                                <div class="ui tiny image">
+                                                    <img src="icon/008.jpg"/>
+
+                                                </div>
+                                                <div class="middle aligned content">
+                                                    <h4><a href="about:blankd" target="_blank">Publications</a></h4>
+                                                    <ul class =" ul1">
+                                                        <li><a href="about:blank">PLOSP</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <h5><a class="item" href="about:blank"><i
+                                    class="ui icon arrow right circle"></i> More
+                            </a></h5>
+                        </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="column">
+                            <h3 class="ui header teal"><i>
+                                <img src="icon/icon02.jpg" width="45"></i>&nbsp;Tools</h3>
+                            <div class="ui equal width stackable container grid">
+                                <div class="row">
+                                    <div class="column center aligned">
+                                        <div class="ui segment blue">
+                                            <i><img src="icon/a.jpg"  width="60"></i>
+                                            <h4><a href="about:blank" target="_blank">Alignment</a></h4>
+                                
+                                        </div>
+                                    </div>
+                                    <div class="column center aligned">
+                                        <div class="ui segment blue">
+                                            <i><img src="icon/b.jpg"  width="60"></i>
+                                            <h4><a href="about:blank" target="_blank">Assembly</a></h4>
+                               
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="column center aligned">
+                                        <div class="ui segment blue">
+                                            <i><img src="icon/c.jpg"  width="60"></i>
+                                            <h4><a href="about:blank" target="_blank">Modification</a></h4>
+                                
+                                        </div>
+                                    </div>
+                                    <div class="column center aligned">
+                                        <div class="ui segment blue">
+                                            <i><img src="icon/d.jpg"  width="60"></i>
+                                            <h4><a href="about:blank" target="_blank">Annotation</a></h4>
+                                
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="column center aligned">
+                                        <div class="ui segment blue">
+                                            <i><img src="icon/e.jpg"  width="60"></i>
+                                            <h4><a href="about:blank" target="_blank">Functional Analysis</a></h4>
+                                
+                                        </div>
+                                    </div>
+                                    <div class="column center aligned">
+                                        <div class="ui segment blue">
+                                            <i><img src="icon/f.jpg"  width="60"></i>
+                                            <h4><a href="about:blank" target="_blank">Data Visualization</a></h4>
+                               
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!--Second Floor-News-->
+    <div class="ui vertical stripe quote segment">
+        <div class="page-content">   
+            <div class="ui equal width stackable internally celled container grid">
+                <div class="row">
+                    <div class="column">
+                        <h3 class="ui header blue"><i><img src="icon/icon03.jpg"  width="45"></i>&nbsp;Research progress</h3>
+                        <ul>
+                    
+                                <li><a href="about:blank">Research progress 0001</a> <span
+                                        style="color: #9d9d9d; font-size: 9.5pt">(yyyy-mm-dd)</span></li>
+                    
+                                <li><a href="about:blank">Research progress 0002</a> <span
+                                        style="color: #9d9d9d; font-size: 9.5pt">(yyyy-mm-dd)</span></li>
+                    
+                                <li><a href="about:blank">Research progress 0003</a> <span
+                                        style="color: #9d9d9d; font-size: 9.5pt">(yyyy-mm-dd)</span></li>
+                    
+                                <li><a href="about:blank">Research progress 0004</a> <span
+                                        style="color: #9d9d9d; font-size: 9.5pt">(yyyy-mm-dd)</span></li>
+                    
+                                <li><a href="about:blank">Research progress 0005</a> <span
+                                        style="color: #9d9d9d; font-size: 9.5pt">(yyyy-mm-dd)</span></li>
+                    
+                        </ul>
+                        <a href="about:blank"><i class="icon angle double right"></i>
+                            More</a>
+                    </div>
+                    <div class="column">
+                        <h3 class="ui header blue"><i><img src="icon/icon04.jpg" width="45"></i>&nbsp;Comprehensive news</h3>
+                        <ul>
+                    
+                                <li><a href="about:blank">Comprehensive news 0001</a> <span
+                                        style="color: #9d9d9d; font-size: 9.5pt">(yyyy-mm-dd)</span></li>
+                    
+                                <li><a href="about:blank">Comprehensive news 0002</a> <span
+                                        style="color: #9d9d9d; font-size: 9.5pt">(yyyy-mm-dd)</span></li>
+                    
+                                <li><a href="about:blank">Comprehensive news 0003</a> <span
+                                        style="color: #9d9d9d; font-size: 9.5pt">(yyyy-mm-dd)</span></li>
+                    
+                                <li><a href="about:blank">Comprehensive news 0004</a> <span
+                                        style="color: #9d9d9d; font-size: 9.5pt">(yyyy-mm-dd)</span></li>
+                    
+                                <li><a href="about:blank">Comprehensive news 0005</a> <span
+                                        style="color: #9d9d9d; font-size: 9.5pt">(yyyy-mm-dd)</span></li>
+                    
+                        </ul>
+                        <a href="https://bigd.big.ac.cn:443/news/general"><i class="icon angle double right"></i>
+                            More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Third Floor-Team-->
+    
+    <div class="ui vertical stripe container segment">
+    <h3 class="ui header blue"><i>
+        <img src="icon/icon05.jpg" width="45"></i>&nbsp;Team
+    </h3>
+    <p class="ui text justified">TIB is dedicated to scientific research, technological innovation, business cultivation, and graduate student education. Presently, it has more than 300 employees and 300 graduate students. TIB employs a three-dimensional dynamic R&D management system which comprises individual research groups, core facilities-affiliated enabling research groups, and Strategic and Integrative Research Center (SIRC). Individual research groups, led by 46 Principal Investigators, commonly conduct their own exploratory research. When there is a need from either the country, the local society, the industries, or other sectors, the RDIC responds and initiates R&D projects and coordinates different research/technical groups to accomplish the mission.</p>
+    <div class="ui three statistics">
+        <div class="blue statistic">
+            <div class="value">
+                
+                    <img src="icon/P01.jpg" />
+            </div>
+            <div class="label">
+                <a href="about:blank">Investigator</a>
+            </div>
+        </div>
+        <div class="blue statistic">
+            <div class="value">
+                <img src="icon/P02.jpg" />
+
+            </div>
+            <div class="label">
+                <a href="about:blank">Adjunct Investigator</a>
+
+            </div>
+        </div>
+        <div class="blue statistic">
+            <div class="value">
+                <img src="icon/P03.jpg" />
+
+            </div>
+            <div class="label">
+                <a href="about:blank">Associate Investigator</a>
+
+            </div>
+        </div>
+        
+    </div>
+        
+</div>
+
+</div>
+<!--<div class="space"></div>-->
+
+
+
+
+
+
+<footer>
+    <div class="container">
+        <p>	Copyright 2012 All Rights Reserved 中国科学院天津工业生物技术研究所　版权所有<br>通讯地址：天津空港经济区西七道32号，邮编：300308<br>电话：022-84861997/84861977，传真：022-84861926，邮箱：tib_zh@tib.cas.cn</p>
+    </div>
+</footer>
+<script src="JS/scripts.js"></script>
+<script>
+    $('.carousel').carousel({
+        pause: true,
+        interval: false
+    });
+    $(document).ready(function () {
+        $(".main-content").css("min-height", $(window).height() - 194);
+        $(window).resize(function () {
+            $(".main-content").css("min-height", $(window).height() - 194);
+        });
+    });
+</script>
+</body>
+</html>
